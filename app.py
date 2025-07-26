@@ -43,4 +43,4 @@ if user_input:
             reply = "Ups... Parker nggak bisa jawab sekarang. Coba cek koneksi atau API key kamu ya~"
 
         st.session_state.messages.append({"role": "assistant", "content": reply})
-        st.experimental_rerun()
+        st.rerun()
